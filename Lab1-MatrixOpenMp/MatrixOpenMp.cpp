@@ -195,7 +195,7 @@ void measureMatrixMultiplyModes(Matrix x, Matrix y){
     printMatrix(result);
 }
 
-int main1(int argc, char* argv[]) {
+int main(int argc, char* argv[]) {
     if (argc == 3) {
         // read file mode
         measureMatrixMultiplyModes(readMatrix(argv[1]), readMatrix(argv[2]));

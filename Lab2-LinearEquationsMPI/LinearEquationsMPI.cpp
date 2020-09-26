@@ -206,7 +206,7 @@ private:
     }
 };
 
-int main22(int argc, char* argv[]) {
+int main(int argc, char* argv[]) {
     MPI_Init(nullptr, nullptr);
     if (argc == 4) {
         // read files mode
